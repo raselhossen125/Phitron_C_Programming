@@ -16,7 +16,7 @@ int main()
             bodies -= eyes;
             eyes = 0;
         }
-        else if (mouths <= bodies && mouths <= eyes)
+        else if (mouths <= bodies)
         {
             answer = mouths;
             eyes -= mouths;
