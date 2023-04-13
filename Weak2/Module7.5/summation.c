@@ -1,22 +1,23 @@
 #include <stdio.h>
 int main()
 {
-    int n, sum = 0;
+    int n;
+    long long int sum = 0;
     scanf("%d", &n);
-    int A[n];
+    long long int A[n];
     for (int i = 1; i <= n; i++)
     {
-        scanf("%d", &A[i]);
+        scanf("%lld", &A[i]);
         sum += A[i];
     }
     if (sum < 0)
     {
         sum *= -1;
-        printf("%d", sum);
+        printf("%lld", sum);
     }
     else
     {
-        printf("%d", sum);
+        printf("%lld", sum);
     }
     return 0;
 }
