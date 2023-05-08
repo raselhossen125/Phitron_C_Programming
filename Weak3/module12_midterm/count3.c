@@ -5,7 +5,6 @@ int main()
 {
     char str[1000];
     int count[26] = {0};
-    int value = 97;
     scanf("%s", str);
     int len = strlen(str);
     for (int i = 0; i < len; i++)
